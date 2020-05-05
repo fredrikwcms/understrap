@@ -1,0 +1,25 @@
+/* USP Styles */
+
+#wrapper-usps {
+    text-align: center;
+
+    // Columns
+    .col-md {
+        display: flex;
+
+        .usp {
+            background-color: #eee;
+            padding: 1rem;
+        }
+        // Title
+        h1 {
+            font-size: 1.25rem;
+        }
+        // Content
+        p {
+            color: $black;
+        }
+    }
+    
+}
+
