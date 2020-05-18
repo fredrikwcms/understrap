@@ -7,13 +7,45 @@
 }
 
 .wrapper {
-    background-color: $secondary;
-    color: $fontcolor1;
-    p   {
-        color: $fontcolor2;
+    // background-color: $secondary;
+    // color: $fontcolor1;
+    // p   {
+    //     color: $fontcolor2;
+    // }
+
+    @include media-breakpoint-up(sm)    {
+        background-color: lightred;
+        h1 {
+            color: lightgreen;
+        }
+    }
+
+    @include media-breakpoint-up(lg)    {
+        background-color: lightblue;
+        h1 {
+            color: lightpink;
+        }
     }
 }
 
 .wrapper-hero  {
     background-image: url('/img/hero-cat-2.jpg');
+}
+
+.wpcf7-form {
+    @include media-breakpoint-up(s)    {
+        background-color: lime;
+        padding: 0.3rem;
+        text-align: center;
+    }
+
+    @include media-breakpoint-up(lg)    {
+        background-color: magenta;
+        padding: 0.8rem;
+    }
+}
+
+.song-track-number {
+    font-weight: bolder;
+    color: red;
 }

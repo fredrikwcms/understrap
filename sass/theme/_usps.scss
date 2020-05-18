@@ -11,15 +11,22 @@
             background-color: #eee;
             padding: 1rem;
         }
-        // Title
+        // USP Title
         h1 {
             font-size: 1.25rem;
         }
-        // Content
+        // USP Content
         p {
             color: $black;
+            // Media breakpoint for SM screens
+            @include media-breakpoint-up(sm)    {
+                font-size: 1.4rem;
+            }
+            // Media breakpoint for LG screens
+            @include media-breakpoint-up(lg)    {
+                font-size: 1rem;
+            }
         }
     }
-    
 }
 

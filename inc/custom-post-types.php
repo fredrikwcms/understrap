@@ -31,7 +31,7 @@ function cptui_register_my_cpts() {
 		"hierarchical" => false,
 		"rewrite" => array( "slug" => "us_usp", "with_front" => true ),
 		"query_var" => true,
-		"supports" => array( "title", "editor", "custom-fields" ),
+		"supports" => array( "title", "editor", "thumbnail", "custom-fields" ),
 	);
 
 	register_post_type( "us_usp", $args );

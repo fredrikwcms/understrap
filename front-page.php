@@ -19,9 +19,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 ?>
 
-<?php get_template_part( 'global-templates/hero' ); ?>
+<?php get_template_part( 'global-templates/hero-potato' ); ?>
+
+<?php get_template_part( 'global-templates/usps-carousel' ); ?>
 
 <?php get_template_part( 'global-templates/usps' ); ?>
+
+<?php get_template_part( 'global-templates/portfolio-items'); ?>
 
 <div class="wrapper" id="page-wrapper">
 	
